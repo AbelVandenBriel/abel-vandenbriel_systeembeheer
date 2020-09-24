@@ -2,7 +2,7 @@
 # /usr/share/doc/sshguard/examples/whitelistfile.example
 
 #MR. T
-193.191.177.0/25
+193.191.177.6
 2001:6a8:2880:a021::6
 
 #My IPs
