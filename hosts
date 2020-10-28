@@ -3,7 +3,7 @@
 ff02::1		ip6-allnodes
 ff02::2		ip6-allrouters
 # --- BEGIN PVE ---
-193.191.177.129 abel-vandenbriel.sb.uclllabs.be abel-vandenbriel
+193.191.177.129 ns.abel-vandenbriel.sb.uclllabs.be ns
 # --- END PVE ---
 
 leia.ucllabs.be leia
