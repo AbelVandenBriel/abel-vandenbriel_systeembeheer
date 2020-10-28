@@ -7,10 +7,10 @@ $TTL 3H
                 3H )    ; Negative Cache TTL
 
 ;Name Servers
-@            IN   NS     ns1.uclllabs.be.
-@            IN   NS     ns2.uclllabs.be.
+@		IN	NS	ns1.uclllabs.be.
+@		IN	NS	ns2.uclllabs.be.
 ;Aliasses
-ns           IN   A      193.191.177.129
-www          IN   A      193.191.177.129
-test         IN   A      193.191.177.254
+ns		IN	A	193.191.177.129
+www		IN	A	193.191.177.129
+test		IN	A	193.191.177.254
 
