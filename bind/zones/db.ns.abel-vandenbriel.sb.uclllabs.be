@@ -1,5 +1,5 @@
 $TTL 3H
-@   IN SOA  @ ns.abel-vandenbriel.sb.uccllabs.be. root.ns.abel-vandenbriel.sb.uclllabs.be. (
+@   IN SOA  ns.abel-vandenbriel.sb.uccllabs.be. root.ns.abel-vandenbriel.sb.uclllabs.be. (
                 0       ; Serial
                 3H      ; Refresh
                 1H      ; Retry
