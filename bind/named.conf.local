@@ -9,3 +9,9 @@ zone "abel-vandenbriel.sb.uclllabs.be" {
 	type master;
 	file "/etc/bind/zones/db.ns.abel-vandenbriel.sb.uclllabs.be";
 };
+
+zone "dennis-winnepenninckx.sb.uclllabs.be" IN {
+    type slave;
+    file "/etc/bind/zones/db.dennis-winnepenninckx.sb.uclllabs.be";
+    masters { 193.191.177.147; };
+};
