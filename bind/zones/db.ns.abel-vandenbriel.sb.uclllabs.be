@@ -1,6 +1,6 @@
 $TTL 360
 @   IN SOA  ns.abel-vandenbriel.sb.ucclllabs.be. root.ns.abel-vandenbriel.sb.uclllabs.be. (
-                18       ; Serial
+                21       ; Serial
                 3H      ; Refresh
                 1H      ; Retry
                 1W      ; Expire
@@ -16,5 +16,5 @@ test		IN	A	193.191.177.254
 @               IN      NS      ns2.uclllabs.be.
 @               IN      NS      ns.abel-vandenbriel.sb.uclllabs.be.
 @               IN      NS      ns.pieter-fiers.sb.uclllabs.be.
-testing		IN      NS      ns.abel-vandenbriel.sb.uclllabs.be.
-testing		IN	A	193.191.177.129
+
+;MRT Zones
