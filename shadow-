@@ -30,3 +30,4 @@ systemd-coredump:!!:18527::::::
 check:$6$kxINoOfI3h3ngTuu$ANoNmeljIBH1MspaYTmJviAkGXRmGL3kiG.SGjBgKNp9yKq/TXj8LUcGAteH62xg5YOPPmsrkpTL8po3P3mGC0:18529:0:99999:7:::
 ntp:*:18535:0:99999:7:::
 bind:*:18563:0:99999:7:::
+mysql:!:18568:0:99999:7:::
