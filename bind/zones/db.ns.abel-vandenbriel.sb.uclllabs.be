@@ -1,6 +1,6 @@
 $TTL 360
 @   IN SOA  ns.abel-vandenbriel.sb.ucclllabs.be. root.ns.abel-vandenbriel.sb.uclllabs.be. (
-                40       ; Serial
+                41       ; Serial
                 3H      ; Refresh
                 1H      ; Retry
                 1W      ; Expire
@@ -20,6 +20,10 @@ test		IN	A	193.191.177.254
 @               IN      NS      ns2.uclllabs.be.
 @               IN      NS      ns.abel-vandenbriel.sb.uclllabs.be.
 @               IN      NS      ns.pieter-fiers.sb.uclllabs.be.
+
+;CAA record for letsencrypt.org
+@		IN	CAA 0 issue "letsencrypt.org"
+@ 		IN	CAA 0 iodef "mailto:abel.vandenbriel@student.ucll.be"
 
 ;MRT Zones
 subzoneiewei5              IN      NS       ns.abel-vandenbriel.sb.uclllabs.be.
