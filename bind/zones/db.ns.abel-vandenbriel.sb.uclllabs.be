@@ -1,12 +1,13 @@
 $TTL 360
 @   IN SOA  ns.abel-vandenbriel.sb.ucclllabs.be. root.ns.abel-vandenbriel.sb.uclllabs.be. (
-                43       ; Serial
+                44       ; Serial
                 3H      ; Refresh
                 1H      ; Retry
                 1W      ; Expire
                 3H )    ; Negative Cache TTL
 
 ;Aliasses
+@		IN	A	193.191.177.129
 ns		IN	A	193.191.177.129
 www		IN	A	193.191.177.129
 www1            IN      A       193.191.177.129
