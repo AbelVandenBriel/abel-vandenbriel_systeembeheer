@@ -1,6 +1,6 @@
 $TTL 360
 @   IN SOA  ns.abel-vandenbriel.sb.ucclllabs.be. root.ns.abel-vandenbriel.sb.uclllabs.be. (
-                45       ; Serial
+                46       ; Serial
                 3H      ; Refresh
                 1H      ; Retry
                 1W      ; Expire
@@ -18,6 +18,7 @@ supersecure     IN      A       193.191.177.129
 secure          IN      A       193.191.177.129
 test		IN	A	193.191.177.254
 mx		IN	A	193.191.177.129
+mx		IN	AAAA	2001:6a8:2880:a077::81
 @		IN	MX 5	mx.abel-vandenbriel.sb.uclllabs.be.
 
 ;Name Servers
